@@ -28,7 +28,7 @@ export default function RootLayout({
           <nav>
             <ul className='flex items-center m-4'>
               {links.map(({ href, label }) => (
-                <li key={href} className='border-solid border-2 border-sky-500 w-32 p-4 text-center'>
+                <li key={href} className='border-solid border-2 border-sky-500 w-32 p-4 m-1 text-center'>
                   <Link href={href}>
                     <p>{label}</p>
                   </Link>
