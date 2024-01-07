@@ -1,6 +1,7 @@
+import { TodoEntity } from "@/types";
 import Todo from "./Todo"
 
-const TodoList = ({ todos }) => {
+const TodoList = ({ todos }: { todos: TodoEntity[] }) => {
   return (
     <div>
       {todos.map((todo) => (

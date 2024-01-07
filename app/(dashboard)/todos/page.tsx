@@ -1,7 +1,8 @@
 import TodoList from '@/components/TodoList';
+import { TodoEntity } from '@/types';
 import db from '@/utils/db';
 
-const getTodos = async () => {
+const getTodos = async (): Promise<TodoEntity[]> => {
   const todos = await db.todo.findMany({});
 
   return todos;
