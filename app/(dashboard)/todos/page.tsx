@@ -12,7 +12,7 @@ const Todos = async () => {
   const todos = await getTodos();
 
   return (
-    <div>
+    <div className='m-8'>
       <h1>Todos Page</h1>
       <TodoList todos={todos} />
     </div>
