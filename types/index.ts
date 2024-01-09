@@ -6,3 +6,9 @@ export interface TodoEntity {
   createdAt: Date
   updatedAt: Date
 }
+
+export interface Params {
+  params: {
+    id: string
+  }
+}
