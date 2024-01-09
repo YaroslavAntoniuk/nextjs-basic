@@ -1,0 +1,9 @@
+{
+  "builds": [
+    {
+      "src": "app/**/*.ts",
+      "use": "@now/node",
+      "config": { "prisma": true }
+    }
+  ]
+}
