@@ -6,7 +6,7 @@ export default function DashboardLayout({
   children: React.ReactNode
 }) {
   return (
-    <section>
+    <section className="m-8">
       <h1>Dashboard</h1>
       <div>
         <TodoForm />

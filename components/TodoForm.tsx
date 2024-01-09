@@ -2,7 +2,7 @@ import { createTodo } from "@/utils/actions";
 
 const TodoForm = () => {
   return <div>
-    <form action={createTodo} className="flex flex-row m-8">
+    <form action={createTodo} className="flex flex-row">
       <input placeholder="Title" name="title" className="border border-black/25 p-2 m-2" type="text" />
       <input placeholder="Content" name="content" className="border border-black/25 p-2 m-2" type="text" />
 

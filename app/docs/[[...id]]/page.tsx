@@ -1,10 +1,8 @@
+import { Params } from '@/types';
 import styles from './style.module.css';
+import React from 'react';
 
-interface Params {
-  id: string;
-}
-
-const DocsIdPage = ({ params }: { params: Params }) => {
+const DocsIdPage: React.FC<Params> = ({ params }) => {
   return (
     <div className={styles.title}>
       <h1>Docs ID Page</h1>
